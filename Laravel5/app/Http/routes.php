@@ -11,4 +11,13 @@
 |
 */
 
+
 Route::Resource('/','FrontController');
+
+Route::get('/','FrontController@index');
+Route::get('contacto','FrontController@contacto');
+Route::get('reviews','FrontController@reviews');
+
+    
+
+
